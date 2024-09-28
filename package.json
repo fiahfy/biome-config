@@ -1,0 +1,33 @@
+{
+  "name": "@fiahfy/biome-config",
+  "description": "My biome config.",
+  "version": "0.0.0",
+  "author": {
+    "name": "fiahfy",
+    "email": "d.fiahfy@gmail.com",
+    "url": "https://fiahfy.github.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/fiahfy/biome-config/issues"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.2"
+  },
+  "files": ["biome.json"],
+  "homepage": "https://github.com/fiahfy/biome-config",
+  "keywords": ["biome"],
+  "license": "MIT",
+  "main": "biome.json",
+  "packageManager": "yarn@4.5.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fiahfy/biome-config.git"
+  },
+  "scripts": {
+    "check": "biome check",
+    "test": "npm run check"
+  }
+}
