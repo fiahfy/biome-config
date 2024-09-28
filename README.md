@@ -1,6 +1,6 @@
 # biome-config
 
-![badge](https://github.com/fiahfy/biome-config/workflows/Node.js%20Package/badge.svg)
+![badge](https://github.com/fiahfy/biome-config/workflows/publish.yml/badge.svg)
 
 > My biome config.
 
@@ -16,7 +16,7 @@ Edit `biome.json`
 
 ```js
 {
-  "extends": "@fiahfy/biome-config",
+  "extends": ["@fiahfy/biome-config"],
   // ...
 }
 ```
