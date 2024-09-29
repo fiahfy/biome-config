@@ -13,9 +13,13 @@
   "devDependencies": {
     "@biomejs/biome": "^1.9.2"
   },
-  "files": ["biome.json"],
+  "files": [
+    "biome.json"
+  ],
   "homepage": "https://github.com/fiahfy/biome-config",
-  "keywords": ["biome"],
+  "keywords": [
+    "biome"
+  ],
   "license": "MIT",
   "main": "biome.json",
   "packageManager": "yarn@4.5.0",
@@ -27,7 +31,7 @@
     "url": "git+https://github.com/fiahfy/biome-config.git"
   },
   "scripts": {
-    "check": "biome check",
-    "test": "npm run check"
+    "lint": "biome check",
+    "test": "yarn lint"
   }
 }

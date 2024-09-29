@@ -1,6 +1,6 @@
 # biome-config
 
-![badge](https://github.com/fiahfy/biome-config/workflows/publish.yml/badge.svg)
+[![Publish](https://github.com/fiahfy/biome-config/actions/workflows/publish.yml/badge.svg)](https://github.com/fiahfy/biome-config/actions/workflows/publish.yml)
 
 > My biome config.
 
