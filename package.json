@@ -11,7 +11,7 @@
     "url": "https://github.com/fiahfy/biome-config/issues"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.1.4"
+    "@biomejs/biome": "^2.2.3"
   },
   "files": [
     "biome.json"
@@ -22,7 +22,7 @@
   ],
   "license": "MIT",
   "main": "biome.json",
-  "packageManager": "yarn@4.5.0",
+  "packageManager": "yarn@4.9.4",
   "publishConfig": {
     "registry": "https://registry.npmjs.org",
     "access": "public"
